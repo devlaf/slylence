@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Slylence",
+  "version": "0.1",
+  "description": "Hides all slack messages from specified users.",
+
+  "icons": {
+    "48": "icons/quiet-48.png",
+    "96": "icons/quiet-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.slack.com/*"],
+      "js": ["slylence.js"]
+    }
+  ]
+
+}
