@@ -1,4 +1,4 @@
-#Slylence
+# Slylence
 
 A WebExtension that allows you to hide all Slack messages coming from specified users.  Think IRC /ignore, but for Slack.
 
